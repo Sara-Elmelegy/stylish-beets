@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+html{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: inherit;
+}
 
 body {
     padding: 15px;
-    background: #c9b5ab;
+    background-color: #c9b5ab;
     font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
     line-height: 1.5;
 }
 
@@ -18,10 +25,15 @@ body {
     list-style: none;
 }
 
-.sub-titles li a {
+a {
     text-decoration: none;
     color: #8f2440;
     font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+color: #3f1622;
 }
 
 /* Image */
