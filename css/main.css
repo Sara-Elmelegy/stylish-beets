@@ -1,107 +1,105 @@
-html{
-  margin: 0px;
+html {
   box-sizing: border-box;
 }
 
-*{
+* {
   box-sizing: inherit;
 }
 
 body {
-    padding: 15px;
-    background-color: #c9b5ab;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: normal;
-    line-height: 1.5;
+  padding: 15px;
+  background-color: #c9b5ab;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 /* First sectiom */
 
 .title {
-    color: #3f1622;
+  color: #3f1622;
 }
 
 .sub-titles {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #8f2440;
-    font-weight: bold;
+  text-decoration: none;
+  color: #8f2440;
+  font-weight: bold;
 }
 
 a:hover {
-text-decoration: underline;
-color: #3f1622;
+  text-decoration: underline;
+  color: #3f1622;
 }
 
 /* Image */
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 figcaption {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
 
 .needs {
-    font-weight: bold;
-    font-size: 1.125rem;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 blockquote p {
-    font-size: 1.5rem;
-    font-style: italic;
-    font-family: 'PT Serif';
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "PT Serif";
 }
 
 cite {
-    font-style: italic;
+  font-style: italic;
 }
 
-cite:before {
-    content:"\2014"
+cite::before {
+  content: "\2014";
 }
 
 h2 {
-    color: #3f1622;
+  color: #3f1622;
 }
 
-
 .varities li {
-    font-family: 'PT Serif';
-    list-style-type: lower-greek;
+  font-family: "PT Serif";
+  list-style-type: lower-greek;
 }
 
 .serving {
-    font-family: 'PT Serif';
-    font-style: italic;
-    font-size: 1.125rem;
+  font-family: "PT Serif";
+  font-style: italic;
+  font-size: 1.125rem;
 }
 
 dt {
-    font-weight: bold;
-    font-size: 1.125rem;
-    font-family: 'PT Serif';
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-family: "PT Serif";
 }
 
 dd {
-    font-family: 'PT Serif';
+  font-family: "PT Serif";
 }
 
 .tags li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 footer {
-    font-size: 1.125rem;
-    font-family: 'PT Serif';
+  font-size: 1.125rem;
+  font-family: "PT Serif";
 }
 
 footer a {
-    color: #8f2440;
-    text-decoration: none;
+  color: #8f2440;
+  text-decoration: none;
 }
