@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  margin-top: -25px;
+  margin-left: -15px;
+  padding-bottom: 110px;
 }
 
 * {
@@ -7,6 +10,7 @@ html {
 }
 
 body {
+  margin-top: 10px;
   padding: 20px;
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
@@ -19,6 +23,7 @@ body {
 .title {
   font-weight: bolder;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 .sub-titles {
