@@ -7,16 +7,17 @@ html {
 }
 
 body {
-  padding: 15px;
+  padding: 20px;
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
 /* First sectiom */
 
 .title {
+  font-weight: bolder;
   color: #3f1622;
 }
 
@@ -95,7 +96,6 @@ dd {
 }
 
 footer {
-  font-size: 1.125rem;
   font-family: "PT Serif";
 }
 
