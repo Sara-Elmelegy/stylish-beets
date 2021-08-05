@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  margin-top: -25px;
-  margin-left: -15px;
   padding-bottom: 110px;
 }
 
@@ -10,12 +8,13 @@ html {
 }
 
 body {
-  margin-top: 10px;
-  padding: 20px;
+  margin: 0;
+  padding: 10px;
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
   line-height: 1.25;
+  color: #222;
 }
 
 /* First sectiom */
@@ -24,10 +23,18 @@ body {
   font-weight: bolder;
   color: #3f1622;
   font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
 }
 
 .sub-titles {
   list-style: none;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+figure {
+  margin-bottom: 1.5rem;
 }
 
 a {
